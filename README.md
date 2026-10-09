@@ -1,42 +1,46 @@
 # CoreMentor
 
-## 📖 Project Description
+## Project Description
 **CoreMentor** is a cross-platform (Web and Mobile) application designed to connect aspiring developers with mentors and technology experts. Built with a minimalist and modern approach using the *Liquid Glass* style, it aims to deliver an optimal user experience for continuous learning and code evolution.
 
-## 🏗️ Architecture (MVVM)
+## Architecture (MVVM)
 The project strictly follows the **Model-View-ViewModel (MVVM)** pattern to ensure clean, modular, and scalable code with a clear separation of concerns:
 *   **Model (`src/Models/`):** Defines data structures and direct backend interactions.
 *   **ViewModel (`src/ViewModels/`):** Manages application state, handles API calls, and prepares data for the view.
 *   **View (`src/Views/`):** Reactive user interface screens and components focused purely on rendering UI and capturing user interactions.
 
-## ✨ Features
-*   **Secure Authentication:** Real-time user login and registration system.
-*   **Mentorship Dashboard:** Clear overview of upcoming scheduled sessions (topic, mentor, date, and time).
-*   **User Roles:** Role-specific workflows depending on whether the account belongs to a *Mentor* or a *Mentee*.
-*   **Mentor Discovery (Coming Soon):** Search experts by tech stack and availability.
-*   **Communication System (Coming Soon):** Internal chat and video call links for mentorship sessions.
+## 🛠️ Technologies Used
+| Technology / Tool | Purpose / Usage |
+| :--- | :--- |
+| **React Native & Expo** | Frontend framework for building the universal (Web & Mobile) application. |
+| **Supabase** | Backend-as-a-Service (BaaS) providing PostgreSQL database, Authentication, and Row Level Security (RLS). |
+| **Jitsi Meet API** | External API integration for secure, ad-free, 1-on-1 private video calls. |
+| **Vercel** | Cloud platform for continuous deployment and hosting of the web version. |
+| **Expo Blur & Animations** | UI/UX implementation to achieve the modern *Liquid Glass* (Glassmorphism) effect and smooth transitions. |
+| **CSS Grid / Flexbox** | Responsive grid layouts to adapt perfectly across mobile, tablet, and desktop screens. |
 
-## 💻 Tech Stack & Languages
-The entire CoreMentor ecosystem is built on a modern stack centered around JavaScript and cloud services:
-*   **Primary Language:** 🟨 JavaScript (ES6+)
-*   **Frontend Web & Mobile:** ⚛️ React Native managed with Expo.
-*   **Backend, Database & APIs:** ⚡ Supabase (PostgreSQL relational database, Authentication, and auto-generated REST APIs).
-*   **Styling & UI:** 💎 Glassmorphism effects (via `expo-blur`).
-*   **Typography & Icons:** Google Fonts (Poppins family via `@expo-google-fonts/poppins`) and Material Icons (via `@expo/vector-icons`).
+## 🚀 Features & What You Can Do
+| Feature | Description |
+| :--- | :--- |
+| 🔐 **Role-based Authentication** | Secure sign-up/login flow routing users to specific workspaces based on their role: *Student* or *Mentor*. |
+| 👨‍🏫 **Mentor Dashboard** | Exclusive panel where mentors can manage the subjects they teach, their schedule, and view upcoming student bookings. |
+| 🔍 **Mentor Discovery** | Students can browse a dynamic grid of available mentors, filtering by technology, language, or specialty. |
+| 📅 **Session Booking** | Students can select a mentor, choose a topic, and schedule a 20-minute 1-on-1 advisory session seamlessly. |
+| 🎥 **Integrated Video Calls** | Direct access to Jitsi-powered private video rooms right from the dashboard, auto-filled with user credentials. |
+| ✨ **Liquid Glass UI** | A highly responsive and modern interface featuring hover effects, smooth enter animations, and glassmorphism. |
 
-## 👥 Development Team
-
+## Development Team
 | Name | Primary Role |
 | :--- | :--- |
 | **Juan Moreno** | Lead Developer & Software Architect |
 | **Oswaldo Oseguera** | UI/UX Designer & Frontend Engineer |
-| **** | |
 
-## 🛠️ How to Clone & Install the Project
+## How to Clone & Install the Project
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/core-mentor.git](https://github.com/your-username/core-mentor.git)
+   
+```bash
+   git clone [https://github.com/juanitoelorigi/Web-Mentorias.git](https://github.com/juanitoelorigi/Web-Mentorias.git)
 
 # INIT EXPO PROJECT 
 
